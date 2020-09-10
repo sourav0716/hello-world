@@ -27,11 +27,11 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-    <snashotrepository>
+    <snashotRepository>
       <id>nexusdeploy</id>
       <name>snapshot-releases</name>
       <url>http://18.191.192.217:8081/repository/Devops1-Snapshot/</url>
-    </snapshotrepository>       
+    </snapshotRepository>       
   </distributionManagement>
 
   <build>
