@@ -6,7 +6,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>2.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
@@ -29,8 +29,8 @@
     </site>
     <snapshotRepository>
       <id>nexusdeploy</id>
-      <name>snapshot-release</name>
-      <url>http://18.191.192.217:8081/repository/Devops1-Snapshot</url>
+      <name>snapshot-2.0release</name>
+      <url>http://3.129.210.187:8081/repository/Devops1-Snapshot</url>
     </snapshotRepository>       
   </distributionManagement>
 
