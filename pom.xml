@@ -22,14 +22,8 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
     <snapshotRepository>
       <id>deployment</id>
-      <name>snapshot-release</name>
       <url>http://3.15.3.170:8081/repository/Hello-World-Snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
